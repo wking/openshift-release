@@ -2465,7 +2465,7 @@ tide:
     - openshift/prometheus-client_golang
     - openshift/redhat-subscription-injection-webhook
     - openshift/rhcos-tools
-  - description: lgtm not an invalid-bug, not a release branch or master
+  - description: lgtm not an invalid bug, not a release branch or master
     excludedBranches:
     - release-4.0
     - release-4.1
@@ -2508,7 +2508,7 @@ tide:
     - openshift/multus-admission-controller
     - openshift/ocp-release-operator-sdk
     - openshift/service-ca-operator
-  - description: lgtm and valid-bug, master
+  - description: lgtm not an invalid bug, master
     includedBranches:
     - master
     labels:
